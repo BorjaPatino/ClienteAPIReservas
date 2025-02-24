@@ -47,7 +47,7 @@ async function obtenerReservas() {
             throw new Error("No hay token, inicia sesión.");
         }
 
-        const response = await fetch("http://localhost:8080/reservas_todas", {
+        const response = await fetch("http://localhost:8080/mis_reservas", {
             method: "GET",
             headers: {
                 "Authorization": `Bearer ${token}`,
