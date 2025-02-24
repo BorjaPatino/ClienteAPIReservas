@@ -31,7 +31,7 @@ async function login() {
 
 document.getElementById("loginBtn").addEventListener("click", login);
 
-//registro
+//registrfo
 document.getElementById("showRegisterModal").addEventListener("click", () => {
     var myModal = new bootstrap.Modal(document.getElementById("registerModal"));
     myModal.show();

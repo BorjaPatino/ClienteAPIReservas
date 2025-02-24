@@ -39,7 +39,7 @@ document.getElementById('cancelReservaBtn').addEventListener("click", () => {
 });
 
 /////////////// MÉTODOS ASÍNCRONOS (AJAX) //////////////
-/////////////// MÉTODOS ASÍNCRONOS (AJAX) //////////////
+/////////////// MÉTODOS ASÍNCRONOS (AfJAX) //////////////
 async function obtenerReservas() {
     try {
         const token = localStorage.getItem("token");
